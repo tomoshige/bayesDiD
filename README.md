@@ -95,7 +95,7 @@ posterior = gibbs_did_cate_p3(
 |$`\tau_1`$|(n_samp,p)|処置効果の異質性の係数 $`\tau_1`$のサンプル|
 |$`\gamma`$|(n_samp,N)|個体ランダム効果$`\gamma`$のサンプル|
 |$`\sigma2`$|(n_samp,)|residualsの分散$`\sigma^2`$のサンプル|
-|$`\sigma2_gamma`$|(n_samp,)|個体のランダム効果の分散$`\sigma_{\gamma}^{2}`$のサンプル|
+|$`\sigma2_gamma`$|(n_samp,)|個体のランダム効果の分散$`\sigma^{2}_{\gamma}`$のサンプル|
 
 
 ## 推定結果の可視化
