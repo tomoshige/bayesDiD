@@ -3,10 +3,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='bayesian_did',
+    name='bayesDiD',
     version='0.1.0',
     description='A Bayesian difference-in-difference module with effect heterogeneity.',
-    author='Your Name',        # ここはご自身の名前に
+    author='Tomoshige Nakamura',        # ここはご自身の名前に
     packages=find_packages(),
     install_requires=[
         'numpy',
