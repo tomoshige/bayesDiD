@@ -1,6 +1,6 @@
 # bayesian_did
 
-Bayesian Difference-in-Differences (DiD) モデルを Python で実装したパッケージです。  
+Bayesian Difference-in-Differences (DiD) モデルを Python で実装したパッケージです。
 共変量との交互作用を含む効果異質性 (Heterogeneous Treatment Effects) や、個体ランダム効果 (Random Intercept) を考慮したベイジアン推定を行うことができます。
 
 ## 特徴
@@ -20,7 +20,7 @@ pip install git+https://github.com/<your_account>/bayesian_did.git
 ```
 
 # 使い方
-'''python
+```python
 import numpy as np
 from bayesian_did import gibbs_did_cate_p3, plot_posterior_distributions
 ```
