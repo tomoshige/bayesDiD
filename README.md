@@ -14,7 +14,7 @@ GitHub リポジトリから直接インストールできます。
 （`<your_account>` の部分はご自身の GitHub アカウント名などに置き換えてください）
 
 ```bash
-pip install git+https://github.com/<your_account>/bayesian_did.git
+pip install git+https://github.com/<your_account>/bayesDiD.git
 ```
 
 # 使い方
