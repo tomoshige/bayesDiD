@@ -86,6 +86,8 @@ posterior = gibbs_did_cate_p3(
 ```
 `posterior`には、以下のようなキーを持つ辞書が返ってくる。
 
+|キー|形状|説明|
+|--------|------------|-------------------------|
 |$`\alpha`$|(n_samp,)|intercept のサンプル|
 |$`\theta`$|(n_samp,)|time effect のサンプル|
 |$`\beta`$|(n_samp,p)|共変量の係数$`\beta`$のサンプル|
