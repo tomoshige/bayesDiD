@@ -18,10 +18,17 @@ pip install git+https://github.com/<your_account>/bayesian_did.git
 ```
 
 # 使い方
+
+## import
+
 ```python
 import numpy as np
 from bayesian_did import gibbs_did_cate_p3, plot_posterior_distributions
 ```
 
-
-
+## data preparation
+`gibbs_did_cate_p3` 関数は、以下を入力として受け取ります。
+X : shape (N,p) の共変量
+D : shape (N, )の処置フラグ (0/1)
+Y0: shape (N, )のアウトカム（事前時点）
+Y1: shape (N, )のアウトカム（事後時点）
